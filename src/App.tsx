@@ -1,11 +1,12 @@
-import * as React from 'react';
+import React from 'react';
 import './style.css';
+import Accordion from './Accordion.tsx';
 
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <h2>Accordion</h2>
+      <Accordion />
     </div>
   );
 }
